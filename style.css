@@ -1,0 +1,41 @@
+/* style.css */
+@font-face {
+    font-family: 'digital-7';
+    src: url('./font/digital-7-mono.ttf');
+}
+
+body {
+    font-family: 'digital-7', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D6D4D8;
+}
+
+#clock {
+    background: #333;
+    width: 440px;
+    font-size: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.clock-box {
+    background: #999;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    
+}
